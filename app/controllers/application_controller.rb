@@ -1,5 +1,12 @@
 class ApplicationController < ActionController::Base
-	def hello
-		render html: "hello worlds"
-	end
+  before_action :set_locale
+
+  private
+  def set_locale
+    I18n.locale = params[:locale] || I18n.default_locale
+  end
+
+  def default_url_options _option = {}
+    {locale: I18n.locale}
+  end
 end
