@@ -34,7 +34,7 @@ gem 'bootsnap', '>= 1.4.2', require: false
 
 gem 'rails-i18n'
 # add bootstrap4
-gem 'bootstrap-sass', '~> 3.3.7'
+gem 'bootstrap', '~> 4.0.0'
 gem 'jquery-rails'
 
 group :development, :test do
