@@ -1,0 +1,14 @@
+vi:
+  vn: tiếng việt
+  el: tiếng anh
+  title_end: Ứng dụng mẫu hướng dẫn Ruby on Rails
+  logo: Sample App
+  nav_item1: Trang chủ
+  nav_item2: Về chúng tôi
+  nav_item3: Trợ Giúp
+  nav_item4: Đăng ký
+  fl_p1: Các
+  fl_p2: phần trợ giúp của Rails Tutorial
+  fl_p3: bởi
+  fl_p4: Michael Hartl
+  alt_img_footer: Ruby on Rails
