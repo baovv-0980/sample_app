@@ -1,9 +1,73 @@
-ul.language {
-    float: right;
+$bg-gray: #e4dbdb;
+$color-red: #FF0000;
+
+/* header */
+*{
+  margin: 0px;
+  padding: 0px;
 }
 
-ul.language li{
-	float: left;
-	margin: 5px 15px;
-	list-style:none;
+a#logo{
+  font-size: 30px;
+  font-weight: 900;
+  &:hover{
+    color: color-red;
+  }
+}
+
+nav.navbar{
+  background-color: $bg-gray;
+  height: 75px;
+}
+
+.language{
+  width: 100%;
+  height: 35px;
+}
+
+.language ul {
+  float: right;
+}
+
+.language ul li{
+  float: left;
+  margin: 5px 15px;
+  list-style: none;
+}
+
+.center{
+  text-align: center;
+}
+
+/* footer */
+.footer{
+  display: inline-block;
+  background-color: $bg-gray;
+  padding: 0 50px;
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+}
+
+.footer a{
+  padding: 0;
+}
+
+.footer_left{
+  float: left;
+}
+
+.footer_right{
+  float: right;
+}
+
+.footer_right ul li{
+  display: inline-block;
+  margin: 0 15px;
+  list-style: none;
+}
+
+.footer_logo{
+  margin: 10px 0 10px 15px;
+  width: 100px;
 }

@@ -1,12 +1,10 @@
-<% provide(:title, t(".title_begin")) %>
-<div class="container">
-	<h1><%= t ".title_begin" %></h1>
-	<p>
-	  <%= t ".p1" %>
-	  <%= link_to t(".link1"), t(".href1") %>
-	  <%= t ".p2" %>
-	  <%= link_to t(".link2"), t(".href2") %>
-	</p>
+<% provide :title, t(".title_begin") %>
+<div id="help" class="container center">
+  <h1><%= t ".title_begin" %></h1>
+  <%= t ".p1" %>
+  <%= link_to t(".link1"), Settings.href_help %>
+  <%= t ".p2" %>
+  <%= link_to t(".link2"), Settings.href_book %>
 </div>
 
 

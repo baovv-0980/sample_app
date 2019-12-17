@@ -1,9 +1,7 @@
-# frozen_string_literal: true
-
 # This shiny device polishes bared foos
 
-require_relative 'boot'
-require 'rails/all'
+require_relative "boot"
+require "rails/all"
 Bundler.require(*Rails.groups)
 
 module SamplePp
@@ -11,10 +9,10 @@ module SamplePp
   class Application < Rails::Application
     config.load_defaults 6.0
     # Where the I18n library should search for translation files
-    I18n.load_path += Dir[Rails.root.join('lib', 'locale', '*.{rb,yml}')]
+    I18n.load_path += Dir[Rails.root.join('config', 'locales', '**', '*.{rb,yml}')]
     # Permitted locales available for the application
     I18n.available_locales = %i[en vi]
-    # Set default locale to something other than :vi
+    # Set default locale :vi
     I18n.default_locale = :vi
   end
 end
