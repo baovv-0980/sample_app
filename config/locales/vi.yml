@@ -1,0 +1,22 @@
+vi:
+  vn: tiếng việt
+  el: tiếng anh
+  title_end: Ứng dụng mẫu hướng dẫn Ruby on Rails
+  static_pages:
+    home:
+      title_begin: Trang chủ
+      p1: Hướng dẫn về Ruby on Rails
+      p2: ứng dụng mẫu.
+    about:
+      title_begin: Về chúng tôi
+      p1: Các
+      p2: cuốn sách hướng dẫn Ruby on Rails.
+      p3: là một bộ sách và loạt hướng dẫn để dạy phát triển web với
+      p4: Ruby on Rails.
+      p5: Đây là ứng dụng mẫu cho hướng dẫn.
+    help:
+      title_begin: Trợ Giúp
+      p1: Nhận trợ giúp về Hướng dẫn Ruby on Rails tại
+      link1: Phần trợ giúp của Rails Tutorial
+      p2: Để nhận trợ giúp về ứng dụng mẫu này, hãy xem
+      link2: Cuốn sách hướng dẫn Ruby on Rails.
