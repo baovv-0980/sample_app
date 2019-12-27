@@ -12,3 +12,11 @@ vi:
   fl_p3: bởi
   fl_p4: Michael Hartl
   alt_img_footer: Ruby on Rails
+  error_count: Biểu mẫu có chứa %{count} lỗi
+  helpers:
+    label:
+      user:
+        name: Tên của bạn
+        email: Email của bạn
+        password: Mật khẩu
+        password_confirmation: Xác nhận mật khẩu

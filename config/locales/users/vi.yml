@@ -2,3 +2,9 @@ vi:
   users:
     new:
       title_begin: Đăng ký
+      submit: Tạo tài khoản mới
+    create:
+      welcome: Chào mừng đến Sample App!
+      registration_failed: Đăng ký thất bại
+    show:
+      not_found: Không tìm thấy người dùng

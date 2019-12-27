@@ -2,3 +2,9 @@ en:
   users:
     new:
       title_begin: Sign up
+      submit: Create new account
+    create:
+      welcome: Welcome to the Sample App!
+      registration_failed: Registration failed
+    show:
+      not_found: User not found
