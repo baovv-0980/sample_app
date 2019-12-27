@@ -1,0 +1,9 @@
+vi:
+  sessions:
+    new:
+      title_begin: Đăng nhập
+      submit: Đăng nhập
+      new_user: Tài khoản mới?
+      signup: Đăng ký ngay!
+    create:
+      flash_login: Kết hợp email / mật khẩu không hợp lệ

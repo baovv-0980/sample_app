@@ -1,6 +1,6 @@
 <header class="container-fuild">
   <div>
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
       <div class="container">
         <%= link_to t("logo"), root_path, id: "logo", class: "navbar-brand" %>
         <div class="navbar_item">
@@ -14,9 +14,30 @@
             <li class="nav-item">
               <%= link_to t("nav_item3"), help_path , class: "nav-link" %>
             </li>
-            <li class="nav-item">
-              <%= link_to t("nav_item4"), signup_path , class: "nav-link" %>
-            </li>
+            <% if logged_in? %>
+              <li class="nav-item">
+                <%= link_to t("text_users"), users_path, class: "nav-link" %>
+              </li>
+              <li class="nav-item dropdown">
+                <%= link_to t("account"), "#", "data-toggle": "dropdown",
+                                      class: "nav-link dropdown-toggle" %>
+                <ul class="dropdown-menu"s>
+                  <li>
+                    <%= link_to t("profile"), user_path(current_user),
+                                      class: "dropdown-item" %>
+                  </li>
+                  <div class="dropdown-divider"></div>
+                  <li>
+                    <%= link_to t("logout"), logout_path, method: :delete,
+                                             class: "dropdown-item"%>
+                  </li>
+                </ul>
+              </li>
+            <% else %>
+              <li class="nav-item">
+                <%= link_to t("nav_item4"), login_path , class: "nav-link" %>
+              </li>
+            <% end %>
           </ul>
         </div>
       </div>

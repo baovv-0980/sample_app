@@ -6,7 +6,7 @@ en:
   nav_item1: Home
   nav_item2: About
   nav_item3: Help
-  nav_item4: Sign up
+  nav_item4: Login
   fl_p1: The
   fl_p2: Ruby on Rails Tutorial
   fl_p3: by
@@ -20,3 +20,11 @@ en:
         email: Your email
         password: Password
         password_confirmation: Password Confirm
+      session:
+        email: Your email
+        password: Password
+  err: error
+  profile: Profile
+  logout: Log out
+  account: Account
+  text_users: Users

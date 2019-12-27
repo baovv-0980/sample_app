@@ -1,0 +1,9 @@
+en:
+  sessions:
+    new:
+      title_begin: Login
+      submit: Login
+      new_user: New user?
+      signup: Sign up now!
+    create:
+      flash_login: Invalid email/password combination

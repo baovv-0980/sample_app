@@ -6,7 +6,7 @@ vi:
   nav_item1: Trang chủ
   nav_item2: Về chúng tôi
   nav_item3: Trợ Giúp
-  nav_item4: Đăng ký
+  nav_item4: Đăng nhập
   fl_p1: Các
   fl_p2: phần trợ giúp của Rails Tutorial
   fl_p3: bởi
@@ -20,3 +20,10 @@ vi:
         email: Email của bạn
         password: Mật khẩu
         password_confirmation: Xác nhận mật khẩu
+      session:
+        email: Email của bạn
+        password: Mật khẩu
+  profile: Hồ sơ
+  logout: Đăng xuất
+  account: Tài khoản
+  text_users: Người dùng
