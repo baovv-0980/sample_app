@@ -1,0 +1,9 @@
+en:
+  user:
+    new:
+      title_begin: Sign up
+      label_name: Your name
+      label_email: Your email
+      label_pass: Password
+      label_pass_confirm: Password Confirm
+      submit: Create new account
