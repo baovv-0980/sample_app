@@ -1,0 +1,11 @@
+en:
+  sessions:
+    new:
+      title_begin: Login
+      label_email: User name
+      label_pass: Password
+      submit: Login
+      new_user: New user?
+      signup: Sign up now!
+    create:
+      flash_login: Invalid email/password combination

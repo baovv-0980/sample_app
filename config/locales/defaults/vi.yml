@@ -6,7 +6,7 @@ vi:
   nav_item1: Trang chủ
   nav_item2: Về chúng tôi
   nav_item3: Trợ Giúp
-  nav_item4: Đăng ký
+  nav_item4: Đăng nhập
   fl_p1: Các
   fl_p2: phần trợ giúp của Rails Tutorial
   fl_p3: bởi
@@ -14,3 +14,7 @@ vi:
   alt_img_footer: Ruby on Rails
   error_count: Biểu mẫu có chứa %{count} lỗi
   welcome: Chào mừng đến Sample App!
+  profile: hồ sơ
+  logout: đăng xuất
+  account: Tài khoản
+  text_users: Người dùng

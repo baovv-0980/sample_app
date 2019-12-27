@@ -6,7 +6,7 @@ en:
   nav_item1: Home
   nav_item2: About
   nav_item3: Help
-  nav_item4: Sign up
+  nav_item4: Login
   fl_p1: The
   fl_p2: Ruby on Rails Tutorial
   fl_p3: by
@@ -15,3 +15,7 @@ en:
   error_count: The form contains %{count} error
   err: error
   welcome: Welcome to the Sample App!
+  profile: profile
+  logout: log out
+  account: Account
+  text_users: Users
