@@ -12,3 +12,6 @@ en:
   fl_p3: by
   fl_p4: Michael Hartl
   alt_img_footer: Ruby on Rails
+  error_count: The form contains %{count} error
+  err: error
+  welcome: Welcome to the Sample App!

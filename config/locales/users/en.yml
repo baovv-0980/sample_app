@@ -1,5 +1,5 @@
 en:
-  user:
+  users:
     new:
       title_begin: Sign up
       label_name: Your name
@@ -7,3 +7,4 @@ en:
       label_pass: Password
       label_pass_confirm: Password Confirm
       submit: Create new account
+

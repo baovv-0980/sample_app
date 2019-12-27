@@ -12,3 +12,5 @@ users:
   password:
     minimum: 6
 regex_valid_email: !ruby/regexp '/\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i'
+helper:
+  size_gravata: 80
