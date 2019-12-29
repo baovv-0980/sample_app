@@ -13,9 +13,8 @@ en:
   fl_p4: Michael Hartl
   alt_img_footer: Ruby on Rails
   error_count: The form contains %{count} error
-  err: error
-  welcome: Welcome to the Sample App!
-  profile: profile
+  profile: Profile
+  setting: Setting
   logout: log out
   account: Account
   text_users: Users

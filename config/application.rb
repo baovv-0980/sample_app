@@ -9,7 +9,7 @@ module SamplePp
   class Application < Rails::Application
     config.load_defaults 6.0
     # Where the I18n library should search for translation files
-    I18n.load_path += Dir[Rails.root.join('config', 'locales', '**', '*.{rb,yml}')]
+    I18n.load_path += Dir[Rails.root.join("config", "locales", "**", "*.{rb,yml}")]
     # Permitted locales available for the application
     I18n.available_locales = %i[en vi]
     # Set default locale :vi

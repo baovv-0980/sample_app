@@ -5,17 +5,19 @@ ruby "2.6.3"
 
 gem "bcrypt", "3.1.12"
 gem "bootsnap", ">= 1.4.2", require: false
-gem "bootstrap", "~> 4.4.1"
+gem "will_paginate-bootstrap4"
 gem "config"
 gem "jbuilder", "~> 2.7"
-gem "jquery-rails", "4.3.1"
 gem "puma", "~> 4.1"
+gem "faker", "2.10.0"
 gem "rails", "~> 6.0.1"
 gem "rails-i18n"
 gem "sass-rails", ">= 6"
 gem "sqlite3", "~> 1.4"
 gem "turbolinks", "~> 5"
 gem "webpacker", "~> 4.0"
+gem "will_paginate", "3.1.7"
+
 
 gem "tzinfo-data", platforms: %i(mingw mswin x64_mingw jruby)
 

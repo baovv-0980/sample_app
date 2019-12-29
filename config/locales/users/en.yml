@@ -1,10 +1,26 @@
 en:
   users:
-    new:
+    form:
+      submit: Submit
       title_begin: Sign up
       label_name: Your name
       label_email: Your email
       label_pass: Password
       label_pass_confirm: Password Confirm
-      submit: Create new account
-
+    edit:
+      title_begin: Update your profile
+      change: change
+    index:
+      title_begin: All users
+    show:
+      login_user: Please log in.
+    create:
+      welcome_user: Welcome to the Sample App!
+      create_user: User create
+    update:
+      update_user: User updated
+    destroy:
+      destroy_user: User deleted
+    user:
+      delete: delete
+      sure: You sure?

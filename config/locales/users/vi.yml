@@ -1,9 +1,26 @@
 vi:
   users:
-    new:
+    form:
+      submit: Gửi đi
       title_begin: Đăng ký
       label_name: Tên của bạn
       label_email: Email của bạn
       label_pass: Mật khẩu
       label_pass_confirm: Xác nhận mật khẩu
-      submit: Tạo tài khoản mới
+    edit:
+      title_begin: Cập nhật hồ sơ của bạn
+      change: thay đổi
+    index:
+      title_begin: Tất cả người dùng
+    show:
+      login_user: Làm ơn đăng nhập.
+    create:
+      create_user: Đã tạo người dùng
+      welcome_user: Chào mừng đến Sample App!
+    update:
+      update_user: Hồ sơ cá nhân đã cập nhật
+    destroy:
+      destroy_user: Đã xóa người dùng
+    user:
+      delete: xóa
+      sure: Bạn chắc chắn?
