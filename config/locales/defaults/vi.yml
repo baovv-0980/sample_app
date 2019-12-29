@@ -23,6 +23,7 @@ vi:
       session:
         email: Email của bạn
         password: Mật khẩu
+  err: error
   profile: Hồ sơ
   logout: Đăng xuất
   account: Tài khoản

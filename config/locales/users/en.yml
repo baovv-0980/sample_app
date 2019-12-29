@@ -8,3 +8,5 @@ en:
       registration_failed: Registration failed
     show:
       not_found: User not found
+      welcome_user: Welcome to the Sample App!
+      create_user: User created
