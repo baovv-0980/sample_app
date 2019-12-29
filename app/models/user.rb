@@ -6,7 +6,8 @@ class User < ApplicationRecord
   before_save{email.downcase!}
 
   validates :name, presence: true,
-                  length: {maximum: Settings.users.your_name.maximum}
+                  length: {maximum: Settings.users.your_name.maximum},
+                  allow_nil: true
 
   validates :email, presence: true,
                     length: {maximum: Settings.users.email.maximum},

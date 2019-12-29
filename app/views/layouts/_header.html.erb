@@ -25,6 +25,10 @@
                   <li>
                     <%= link_to t("profile"), current_user, class: "dropdown-item" %>
                   </li>
+                  <li>
+                    <%= link_to t("setting") , edit_user_path(current_user),
+                             class: "dropdown-item" %>
+                  </li>
                   <div class="dropdown-divider"></div>
                   <li>
                     <%= link_to t("logout"), logout_path, method: :delete,

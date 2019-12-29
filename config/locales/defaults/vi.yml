@@ -13,8 +13,8 @@ vi:
   fl_p4: Michael Hartl
   alt_img_footer: Ruby on Rails
   error_count: Biểu mẫu có chứa %{count} lỗi
-  welcome: Chào mừng đến Sample App!
-  profile: hồ sơ
+  profile: Hồ sơ
+  setting: Cài đặt
   logout: đăng xuất
   account: Tài khoản
   text_users: Người dùng
