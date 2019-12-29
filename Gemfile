@@ -5,7 +5,7 @@ ruby "2.6.3"
 
 gem "bcrypt", "3.1.12"
 gem "bootsnap", ">= 1.4.2", require: false
-gem 'bootstrap', '~> 4.4.1'
+gem "bootstrap", "~> 4.4.1"
 gem "config"
 gem "jbuilder", "~> 2.7"
 gem "jquery-rails", "4.3.1"
@@ -40,4 +40,3 @@ group :development, :test do
   gem "rubocop", "~> 0.74.0", require: false
   gem "rubocop-rails", "~> 2.3.2", require: false
 end
-
