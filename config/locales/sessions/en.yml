@@ -10,3 +10,4 @@ en:
       remember: Remember me on this computer
     create:
       flash_login: Invalid email/password combination
+      flash_active: Account not activated. Check your email for the activation link.

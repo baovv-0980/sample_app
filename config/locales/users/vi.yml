@@ -1,13 +1,15 @@
 vi:
   users:
-    form:
-      submit: Gửi đi
+    new:
       title_begin: Đăng ký
+      submit: Tạo tài khoản
+    form:
       label_name: Tên của bạn
       label_email: Email của bạn
       label_pass: Mật khẩu
       label_pass_confirm: Xác nhận mật khẩu
     edit:
+      submit: Lưu thay đổi
       title_begin: Cập nhật hồ sơ của bạn
       change: thay đổi
     index:
@@ -17,6 +19,7 @@ vi:
     create:
       create_user: Đã tạo người dùng
       welcome_user: Chào mừng đến Sample App!
+      flash_check: Hãy kiểm tra email của bạn để kích hoạt tài khoản của bạn.
     update:
       update_user: Hồ sơ cá nhân đã cập nhật
     destroy:

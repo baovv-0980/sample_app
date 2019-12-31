@@ -1,13 +1,15 @@
 en:
   users:
-    form:
-      submit: Submit
+    new:
       title_begin: Sign up
+      submit: Create Account
+    form:
       label_name: Your name
       label_email: Your email
       label_pass: Password
       label_pass_confirm: Password Confirm
     edit:
+      submit: Save changes
       title_begin: Update your profile
       change: change
     index:
@@ -17,6 +19,7 @@ en:
     create:
       welcome_user: Welcome to the Sample App!
       create_user: User create
+      flash_check: Please check your email to activate your account.
     update:
       update_user: User updated
     destroy:

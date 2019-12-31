@@ -10,3 +10,4 @@ vi:
       remember: Hãy nhớ tôi trên máy tính này
     create:
       flash_login: Kết hợp email / mật khẩu không hợp lệ
+      flash_active: Tài khoản chưa được kích hoạt. Kiểm tra email của bạn cho các liên kết kích hoạt.

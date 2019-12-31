@@ -1,0 +1,5 @@
+en:
+  account_activations:
+    edit:
+      flash_activated: Tài khoản được kích hoạt!
+      flash_inactive: Liên kết kích hoạt không hợp lệ
