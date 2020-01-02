@@ -1,7 +1,4 @@
 vi:
-  vn: tiếng việt
-  el: tiếng anh
-  title_end: Ứng dụng mẫu hướng dẫn Ruby on Rails
   static_pages:
     home:
       title_begin: Trang chủ
@@ -20,3 +17,7 @@ vi:
       link1: Phần trợ giúp của Rails Tutorial
       p2: Để nhận trợ giúp về ứng dụng mẫu này, hãy xem
       link2: Cuốn sách hướng dẫn Ruby on Rails.
+    signup:
+      title_begin: Đăng ký
+      p1: Hướng dẫn về Ruby on Rails
+      p2: ứng dụng mẫu.

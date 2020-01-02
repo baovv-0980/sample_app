@@ -1,0 +1,21 @@
+<footer>
+  <%= image_tag("/assets/logo.jpeg", alt: t("alt_img_footer"), class: "footer_logo") %>
+  <small class="footer">
+    <div class="footer_left">
+      <p>
+        <%= t "fl_p1" %>
+        <%= link_to t("fl_p2"), Settings.href_tuto %>
+        <%= t "fl_p3" %>
+        <%= link_to t("fl_p4"), Settings.href_auth %>
+      </p>
+    </div>
+
+    <div class="footer_right">
+      <ul>
+        <li><%= link_to t("nav_item1"), root_path, class: "nav-link" %></li>
+        <li><%= link_to t("nav_item2"), about_path, class: "nav-link" %></li>
+        <li><%= link_to t("nav_item3"), help_path, class: "nav-link" %></li>
+      </ul>
+    </div>
+  </small>
+</footer>

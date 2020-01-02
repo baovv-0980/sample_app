@@ -1,8 +1,31 @@
-<header>
-  <div class="container">
-    <ul class="language">
-      <li><%= link_to t("el"), locale: :en %></li>
-      <li><%= link_to t("vn"), locale: :vi %></li>
-    </ul>
+<header class="container-fuild">
+  <div>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container">
+        <%= link_to t("logo"), root_path, id: "logo", class: "navbar-brand"%>
+        <div class="navbar_item">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <%= link_to t("nav_item1"), root_path , class: "nav-link" %>
+            </li>
+            <li class="nav-item">
+              <%= link_to t("nav_item2"), about_path , class: "nav-link" %>
+            </li>
+            <li class="nav-item">
+              <%= link_to t("nav_item3"), help_path , class: "nav-link" %>
+            </li>
+            <li class="nav-item">
+              <%= link_to t("nav_item4"), signup_path , class: "nav-link" %>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="language">
+      <ul>
+        <li><%= link_to t("el"), locale: :en %></li>
+        <li><%= link_to t("vn"), locale: :vi %></li>
+      </ul>
+    </div>
   </div>
 </header>
