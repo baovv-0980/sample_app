@@ -1,0 +1,16 @@
+<% provide(:title, t(".begin_title")) %>
+
+<div id="pass_reset" class="container">
+  <h1 class="center"><%= t ".begin_title" %></h1>
+  <%= form_for(:password_reset, url: password_resets_path) do |f| %>
+
+    <div class="form-group">
+      <%= f.label :email %>
+      <%= f.email_field :email, class: 'form-control' %>
+    </div>
+
+    <div class="actions">
+      <%= f.submit t(".submit"), class: "btn btn-primary" %>
+    </div>
+  <% end %>
+</div>

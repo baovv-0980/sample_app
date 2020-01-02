@@ -1,0 +1,14 @@
+en:
+  password_resets:
+    new:
+      begin_title: Forgot password
+      submit: Update password
+    edit:
+      begin_title: Reset password
+      submit: Update password
+    create:
+      flash_reset_pass: Email sent with password reset instructions
+      email_not_found: Email address not found
+    update:
+      pass_empty: can't be empty
+      pas_reset: Password has been reset.

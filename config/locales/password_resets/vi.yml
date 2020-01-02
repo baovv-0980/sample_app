@@ -1,0 +1,14 @@
+vi:
+  password_resets:
+    new:
+      begin_title: Quên mật khẩu
+      submit: Cập nhật mật khẩu
+    edit:
+      begin_title: Đặt lại mật khẩu
+      submit: Cập nhật mật khẩu
+    create:
+      flash_reset_pass: Email được gửi với hướng dẫn đặt lại mật khẩu
+      email_not_found: Không tìm thấy địa chỉ email
+    update:
+      pass_empty: Không thể để trống
+      pas_reset: Mật khẩu đã được đặt lại.

@@ -18,3 +18,15 @@ en:
   logout: log out
   account: Account
   text_users: Users
+  helpers:
+    label:
+      user:
+        name: Your name
+        email: Your email
+        password: Password
+        password_confirmation: Password Confirm
+      session:
+        email: Your email
+        password: Password
+      password_reset:
+        email: Your email

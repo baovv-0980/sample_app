@@ -1,0 +1,21 @@
+<% provide(:title, t(".begin_title")) %>
+
+<div id="pass_reset" class="container">
+  <h1><%= t ".begin_title" %></h1>
+  <%= form_for(@user, url: password_reset_path(params[:id])) do |f| %>
+    <%= render "shared/error_messages" %>
+
+    <%= hidden_field_tag :email, @user.email %>
+    <div>
+        <%= f.label :password %>
+        <%= f.password_field :password, class: "form-control" %>
+    </div>
+    <div class="form-group">
+        <%= f.label :password_confirmation %>
+        <%= f.password_field :password_confirmation, class: "form-control" %>
+    </div>
+    <div class="actions">
+        <%= f.submit t(".submit"), class: "btn btn-primary" %>
+    </div>
+    <% end %>
+</div>

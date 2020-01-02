@@ -18,3 +18,15 @@ vi:
   logout: đăng xuất
   account: Tài khoản
   text_users: Người dùng
+  helpers:
+    label:
+      user:
+        name: Tên của bạn
+        email: Email của bạn
+        password: Mật khẩu
+        password_confirmation: Xác nhận mật khẩu
+      session:
+        email: Email của bạn
+        password: Mật khẩu
+      password_reset:
+        email: Email của bạn
