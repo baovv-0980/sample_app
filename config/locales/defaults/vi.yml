@@ -18,6 +18,8 @@ vi:
   logout: đăng xuất
   account: Tài khoản
   text_users: Người dùng
+  login_user: Vui lòng hãy đăng nhập.
+  picture_size_warning: Nên dưới 5 MB
   helpers:
     label:
       user:
@@ -30,3 +32,11 @@ vi:
         password: Mật khẩu
       password_reset:
         email: Email của bạn
+  partial:
+    micropost:
+      sure: Bạn chắc chắn?
+      delete: xoá
+      post: Đăng %{time} trước
+    micropost_form:
+      area: "Soạn bài mới ..."
+      submit: Đăng

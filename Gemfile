@@ -6,6 +6,8 @@ ruby "2.6.3"
 gem "bcrypt", "3.1.12"
 gem "bootsnap", ">= 1.4.2", require: false
 gem "config"
+gem 'carrierwave', '1.2.2'
+gem 'mini_magick', '4.7.0'
 gem "faker", "2.10.0"
 gem "jbuilder", "~> 2.7"
 gem "puma", "~> 4.1"
@@ -41,6 +43,7 @@ end
 
 group :production do
   gem "pg"
+  gem 'fog', '1.42'
 end
 
 group :development, :test do

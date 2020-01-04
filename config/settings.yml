@@ -4,6 +4,9 @@ href_auth: http://www.michaelhartl.com/
 href_help: https://www.railstutorial.org/help
 href_book: https://www.railstutorial.org/book
 email: from@example.com
+per_page: 10
+content_max: 140
+photo_size: 5
 users:
   your_name:
     maximum: 50
@@ -13,6 +16,8 @@ users:
     minimum: 6
   form:
     link_change_img: http://gravatar.com/emails
+  show:
+    size_gravata_max: 80
+    size_gravata_min: 50
 regex_valid_email: !ruby/regexp '/\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i'
-helper:
-  size_gravata: 80
+

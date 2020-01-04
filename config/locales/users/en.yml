@@ -14,8 +14,6 @@ en:
       change: change
     index:
       title_begin: All users
-    show:
-      login_user: Please log in.
     create:
       welcome_user: Welcome to the Sample App!
       create_user: User create

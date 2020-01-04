@@ -1,5 +1,24 @@
 <% provide :title, t(".title_begin") %>
-<div id="home" class="container center">
-  <h1><%= t ".title_begin" %></h1>
-  <p><%= link_to t(".p1"), Settings.href_tuto %> <%= t ".p2" %></p>
-</div>
+<% if logged_in? %>
+  <div class="row">
+    <aside class="col-md-4">
+      <section class="user_info">
+        <%= render 'shared/user_info' %>
+      </section>
+      <section class="micropost_form">
+        <%= render 'shared/micropost_form' %>
+      </section>
+    </aside>
+    <div class="col-md-8">
+      <h3><%= t ".micropost_feed" %></h3>
+      <%= render 'shared/feed' %>
+    </div>
+  </div>
+<% else %>
+  <div id="home" class="center">
+    <h1><%= t ".welcome" %></h1>
+    <h3><%= link_to t(".p1"), Settings.href_tuto %> <%= t ".p2" %></h3>
+
+    <%= link_to t(".submit"), signup_path, class: "btn btn-primary" %>
+  </div>
+<% end %>
