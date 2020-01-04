@@ -12,5 +12,9 @@ module SamplePp
     I18n.available_locales = %i[en vi]
     # Set default locale :vi
     I18n.default_locale = :vi
+    # Include the authenticity token in remote forms.
+    config.action_view.embed_authenticity_token_in_remote_forms = true
+    config.middleware.use I18n::JS::Middleware
+    config.assets.initialize_on_precompile = false
   end
 end

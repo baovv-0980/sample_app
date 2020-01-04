@@ -1,7 +1,7 @@
-<% provide(:title, t(".title_begin")) %>
+<% provide :title, t(".title_begin") %>
 <div id="sign_up" class="container">
   <h1 class="center"><%= t ".title_begin"%></h1>
-  <%= will_paginate%>
+  <%= will_paginate %>
   <ul class="users">
     <% @users.each do |user| %>
       <%= render user %>

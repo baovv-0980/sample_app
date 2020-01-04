@@ -5,11 +5,12 @@ ruby "2.6.3"
 
 gem "bcrypt", "3.1.12"
 gem "bootsnap", ">= 1.4.2", require: false
+gem "carrierwave", "1.2.2"
 gem "config"
-gem 'carrierwave', '1.2.2'
-gem 'mini_magick', '4.7.0'
 gem "faker", "2.10.0"
+gem "i18n-js", ">= 3.0.0.rc8"
 gem "jbuilder", "~> 2.7"
+gem "mini_magick", "4.7.0"
 gem "puma", "~> 4.1"
 gem "rails", "~> 6.0.1"
 gem "rails-i18n"
@@ -42,8 +43,8 @@ group :development, :test do
 end
 
 group :production do
+  gem "fog", "1.42"
   gem "pg"
-  gem 'fog', '1.42'
 end
 
 group :development, :test do

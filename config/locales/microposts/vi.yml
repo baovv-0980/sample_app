@@ -1,0 +1,10 @@
+vi:
+  microposts:
+    create:
+      post_create: Bài đăng được tạo ra!
+    destroy:
+      post_destroy: Bài đăng đã bị xóa
+    micropost:
+        sure: Bạn chắc chắn?
+        delete: xoá
+        post: Đăng %{time} trước

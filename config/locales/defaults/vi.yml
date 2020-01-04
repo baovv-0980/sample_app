@@ -19,7 +19,9 @@ vi:
   account: Tài khoản
   text_users: Người dùng
   login_user: Vui lòng hãy đăng nhập.
-  picture_size_warning: Nên dưới 5 MB
+  picture_size: nên dưới 5 MB
+  picture_size_warning: Kích thước tệp tối đa là 5MB. Vui lòng chọn một tập tin nhỏ hơn.
+  lated: Đặt lại mật khẩu đã hết hạn.
   helpers:
     label:
       user:
@@ -32,11 +34,25 @@ vi:
         password: Mật khẩu
       password_reset:
         email: Email của bạn
-  partial:
-    micropost:
-      sure: Bạn chắc chắn?
-      delete: xoá
-      post: Đăng %{time} trước
+  shared:
     micropost_form:
       area: "Soạn bài mới ..."
       submit: Đăng
+    user_info:
+      view: Xem hồ sơ của tôi
+      post: bài đăng
+    stats:
+      following: theo dõi
+      followers: người theo dõi
+  user_mailer:
+    account_activation:
+      active: Kích hoạt
+      title: Sample App
+      content: Chào mừng bạn đến với Ứng dụng mẫu! Nhấp vào liên kết dưới đây để kích hoạt tài khoản của bạn
+      hi: Chào %{user},
+    password_reset:
+      h1: Đặt lại mật khẩu
+      p1: Để thiết lập lại mật khẩu của bạn, nhấp vào liên kết dưới đây
+      p2: Đặt lại mật khẩu
+      p3: Liên kết này sẽ hết hạn trong hai giờ.
+      p4: Nếu bạn không yêu cầu đặt lại mật khẩu, vui lòng bỏ qua email này và mật khẩu của bạn sẽ được giữ nguyên.

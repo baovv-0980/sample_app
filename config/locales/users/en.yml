@@ -25,3 +25,7 @@ en:
     user:
       delete: delete
       sure: You sure?
+    follow:
+      follow: Follow
+    unfollow:
+      unfollow: Unfollow

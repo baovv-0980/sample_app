@@ -287,6 +287,8 @@ GEM
       domain_name (~> 0.5)
     i18n (1.7.0)
       concurrent-ruby (~> 1.0)
+    i18n-js (3.5.1)
+      i18n (>= 0.6.6)
     ipaddress (0.8.3)
     jaro_winkler (1.5.4)
     jbuilder (2.9.1)
@@ -468,6 +470,7 @@ DEPENDENCIES
   config
   faker (= 2.10.0)
   fog (= 1.42)
+  i18n-js (>= 3.0.0.rc8)
   jbuilder (~> 2.7)
   listen (>= 3.0.5, < 3.2)
   mini_magick (= 4.7.0)

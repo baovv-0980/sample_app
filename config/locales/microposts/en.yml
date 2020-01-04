@@ -1,0 +1,10 @@
+en:
+  microposts:
+    create:
+      post_create: Micropost created!
+    destroy:
+      post_destroy: Micropost deleted
+    micropost:
+      sure: Your sure?
+      delete: delete
+      post: Posted %{time} ago
