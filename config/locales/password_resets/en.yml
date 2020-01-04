@@ -11,4 +11,4 @@ en:
       email_not_found: Email address not found
     update:
       pass_empty: can't be empty
-      pas_reset: Password has been reset.
+      pass_reset: Password has been reset.

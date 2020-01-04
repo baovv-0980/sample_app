@@ -14,8 +14,6 @@ vi:
       change: thay đổi
     index:
       title_begin: Tất cả người dùng
-    show:
-      login_user: Làm ơn đăng nhập.
     create:
       create_user: Đã tạo người dùng
       welcome_user: Chào mừng đến Sample App!

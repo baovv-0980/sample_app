@@ -2,8 +2,11 @@ vi:
   static_pages:
     home:
       title_begin: Trang chủ
+      welcome: Chào mừng bạn đến với Sample App
       p1: Hướng dẫn về Ruby on Rails
       p2: ứng dụng mẫu.
+      submit: Đăng ký ngay!
+      micropost_feed: Bài đăng
     about:
       title_begin: Về chúng tôi
       p1: Các

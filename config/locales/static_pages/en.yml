@@ -2,8 +2,11 @@ en:
   static_pages:
     home:
       title_begin: Home
+      welcome: Welcome to the Sample App
       p1: Ruby on Rails Tutorial
       p2: sample application.
+      submit: Sign up now!
+      micropost_feed: Posts
     about:
       title_begin: About
       p1: The

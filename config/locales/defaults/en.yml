@@ -18,6 +18,8 @@ en:
   logout: log out
   account: Account
   text_users: Users
+  login_user: Please log in.
+  picture_size_warning: should be less than 5MB
   helpers:
     label:
       user:
@@ -30,3 +32,11 @@ en:
         password: Password
       password_reset:
         email: Your email
+  partial:
+    micropost:
+      sure: Your sure?
+      delete: delete
+      post: Posted %{time} ago
+    micropost_form:
+      area: Compose new micropost...
+      submit: Post
