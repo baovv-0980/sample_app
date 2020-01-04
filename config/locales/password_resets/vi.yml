@@ -11,4 +11,4 @@ vi:
       email_not_found: Không tìm thấy địa chỉ email
     update:
       pass_empty: Không thể để trống
-      pas_reset: Mật khẩu đã được đặt lại.
+      pass_reset: Mật khẩu đã được đặt lại.

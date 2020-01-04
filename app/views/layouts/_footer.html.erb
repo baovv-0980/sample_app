@@ -1,5 +1,5 @@
 <footer>
-  <%= image_tag("/assets/logo.jpeg", alt: t("alt_img_footer"), class: "footer_logo") %>
+  <%= image_tag( Settings.img_logo, alt: t("alt_img_footer"), class: "footer_logo") %>
   <small class="footer">
     <div class="footer_left">
       <p>
@@ -19,3 +19,8 @@
     </div>
   </small>
 </footer>
+
+<script type="text/javascript">
+  I18n.defaultLocale = "<%= I18n.default_locale %>"
+  I18n.locale = "<%= I18n.locale || I18n.default_locale %>"
+</script>

@@ -25,3 +25,7 @@ vi:
     user:
       delete: xóa
       sure: Bạn chắc chắn?
+    follow:
+      follow: Theo dõi
+    unfollow:
+      unfollow: Hủy theo dõi

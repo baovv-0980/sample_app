@@ -4,9 +4,11 @@ href_auth: http://www.michaelhartl.com/
 href_help: https://www.railstutorial.org/help
 href_book: https://www.railstutorial.org/book
 email: from@example.com
+img_logo: https://rubyonrails.org/images/rails-logo.svg
 per_page: 10
 content_max: 140
-photo_size: 5
+photo_size: 1
+remember: "1"
 users:
   your_name:
     maximum: 50

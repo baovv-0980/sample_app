@@ -10,13 +10,8 @@ class UsersController < ApplicationController
   def show
     @user = User.find_by id: params[:id]
     redirect_to root_url if @user.blank?
-    if @user == current_user
-      @microposts = @user.microposts.paginate(page: params[:page],
-                                              per_page: Settings.per_page)
-    else
-      redirect_to user_path(current_user)
-    end
-
+    @microposts = @user.microposts.paginate(page: params[:page],
+                                            per_page: Settings.per_page)
   end
 
   def new
@@ -44,7 +39,7 @@ class UsersController < ApplicationController
       flash[:success] = t ".update_user"
       redirect_to @user
     else
-      render "edit"
+      render :edit
     end
   end
 
@@ -52,6 +47,20 @@ class UsersController < ApplicationController
     User.find(params[:id]).destroy
     flash[:success] = t ".destroy_user"
     redirect_to users_url
+  end
+
+  def following
+    @title = "Following"
+    @user  = User.find(params[:id])
+    @users = @user.following.paginate(page: params[:page])
+    render "show_follow"
+  end
+
+  def followers
+    @title = "Followers"
+    @user  = User.find(params[:id])
+    @users = @user.followers.paginate(page: params[:page])
+    render "show_follow"
   end
 
   private
