@@ -4,6 +4,7 @@ href_auth: http://www.michaelhartl.com/
 href_help: https://www.railstutorial.org/help
 href_book: https://www.railstutorial.org/book
 email: from@example.com
+remember: "1"
 users:
   your_name:
     maximum: 50

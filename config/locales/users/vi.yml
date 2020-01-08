@@ -8,3 +8,5 @@ vi:
       registration_failed: Đăng ký thất bại
     show:
       not_found: Không tìm thấy người dùng
+      welcome_user: Chào mừng đến Sample App!
+      create_user: Tài khoản đã được tạo
