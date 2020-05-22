@@ -7,7 +7,7 @@ gem "bcrypt", "3.1.12"
 gem "bootsnap", ">= 1.4.2", require: false
 gem "config"
 gem "jbuilder", "~> 2.7"
-gem "puma", "~> 4.1"
+gem "puma", "~> 4.3"
 gem "rails", "~> 6.0.1"
 gem "rails-i18n"
 gem "sass-rails", ">= 6"
